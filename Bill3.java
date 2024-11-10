@@ -5,6 +5,6 @@ public class Bill3 {
 		String name3 = args[2];
 		double sum = Double.parseDouble(args[3]);
 	    double splitsum = Math.ceil(sum/3);
-		System.out.println("Dear "+name3+", "+name2+", and  "+name1+": pay " + splitsum + " Shekels each") ;  
+		System.out.println("Dear "+name3+", "+name2+", and "+name1+": pay " + splitsum + " Shekels each") ;  
 	}
 }
